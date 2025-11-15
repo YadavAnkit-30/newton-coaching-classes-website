@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form - Newton Coaching Classes</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">Newton Coaching Classes</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="courses.html">Our Courses</a></li>
+                    <li><a href="admission.html" class="active">Admission Form</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="admission-main container">
+        <h2>Admission Form – Join Newton Coaching Classes</h2>
+
+        <div class="info-and-form-grid">
+            
+            <div class="info-sidebar">
+                <section>
+                    <h3>💡 Why Choose Us</h3>
+                    <ul>
+                        <li>Expert and dedicated faculty</li>
+                        <li>Individual focus and personalized guidance</li>
+                        <li>Regular tests and detailed feedback</li>
+                        <li>Strong results and achiever track record</li>
+                        <li>Focus on both board and entrance exams</li>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h3>🎓 Classes Offered</h3>
+                    <p>School Students: Classes 8th to 12th (CBSE and SSC boards).</p>
+                    <p>College Students: Science Stream (Physics, Chemistry, Mathematics, Biology).</p>
+                </section>
+                
+                <section>
+                    <h3>👨‍🏫 Our Expert Faculty</h3>
+                    <p>Vikram Sir (Phy/Maths), Mohit Sir (Bio), Patil Sir (Hindi/Marathi), Miss Anisha (Phy).</p>
+                </section>
+                
+                <section>
+                    <h3>🏆 Our Achievers</h3>
+                    <p>Aditya Muke (90% CBSE), Sujal Bansode (83.20% SSC) and more!</p>
+                </section>
+            </div>
+
+            <form id="admissionForm">
+                <h3>📋 Application Details</h3>
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" name="Full Name" required>
+                
+                <label for="class">Class</label>
+                <select id="class" name="Class" required>
+                    <option value="">Select Class</option>
+                    <option value="8th-12th">8th–12th (School)</option>
+                    <option value="College Science">College Science</option>
+                </select>
+                
+                <label for="board">Board</label>
+                <select id="board" name="Board" required>
+                    <option value="">Select Board</option>
+                    <option value="CBSE">CBSE</option>
+                    <option value="SSC">SSC</option>
+                </select>
+
+                <label for="contactNumber">Contact Number</label>
+                <input type="tel" id="contactNumber" name="Contact Number" required>
+                
+                <label for="email">Email ID</label>
+                <input type="email" id="email" name="Email ID" required>
+                
+                <label for="address">Address</label>
+                <textarea id="address" name="Address" rows="3" required></textarea>
+
+                <label for="subjects">Subject(s) of Interest</label>
+                <input type="text" id="subjects" name="Subject(s) of Interest" placeholder="e.g., Physics, Maths, Biology" required>
+
+                <button type="submit">Submit & Join Us</button>
+                <p class="form-note">Data will be saved securely to our database (Google Sheets).</p>
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Newton Coaching Classes. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
