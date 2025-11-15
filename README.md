@@ -40,13 +40,14 @@ A responsive and modern website designed for **Newton Coaching Classes**, featur
 
 ## 📁 Project Structure
 
+```
 project/
 ├── index.html        # Home Page
 ├── courses.html      # Courses + Achievers
 ├── admission.html    # Admission Form
 ├── style.css         # All styling
 └── script.js         # Form submission logic
-
+```
 
 ---
 
@@ -65,6 +66,23 @@ project/
 3. Open **index.html** in any browser  
 
 No backend or server setup required.
+
+---
+
+## 🌐 Deploy on GitHub Pages
+
+GitHub Pages allows you to host this project for free.
+
+### Steps:
+1. Go to **Repository → Settings**
+2. Scroll to **Pages**
+3. Under *Source*, select:
+   - **Branch:** `main`
+   - **Folder:** `/root`
+4. Click **Save**
+
+Your site will become live at:  
+`https://<your-username>.github.io/<your-repository-name>/`
 
 ---
 
