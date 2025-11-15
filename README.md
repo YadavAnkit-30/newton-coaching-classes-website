@@ -69,23 +69,6 @@ No backend or server setup required.
 
 ---
 
-## 🌐 Deploy on GitHub Pages
-
-GitHub Pages allows you to host this project for free.
-
-### Steps:
-1. Go to **Repository → Settings**
-2. Scroll to **Pages**
-3. Under *Source*, select:
-   - **Branch:** `main`
-   - **Folder:** `/root`
-4. Click **Save**
-
-Your site will become live at:  
-`https://<your-username>.github.io/<your-repository-name>/`
-
----
-
 ## 📬 Contact Information
 
 For queries or admissions:
